@@ -41,7 +41,7 @@ filterButtons.forEach(button => {
     })
 })
 
-filterSelect.addEventListener("click", () => {
+filterSelect.addEventListener("change", () => {
     filteredCard(filterSelect.value)
 })
 
